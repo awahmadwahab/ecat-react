@@ -75,7 +75,7 @@ function AggregateCalculator() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-green-50 to-blue-50 p-2 sm:p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-green-50 to-blue-50 p-2 sm:p-2">
       <div className="w-full max-w-sm sm:max-w-lg p-4 sm:p-8 bg-white shadow-2xl rounded-xl border border-gray-100">
         <div className="text-center text-xs sm:text-sm text-gray-500 mb-2">
           <p>AW X DEV</p>
