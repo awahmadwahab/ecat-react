@@ -77,7 +77,11 @@ function AggregateCalculator() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-green-50 to-blue-50 p-2 sm:p-4">
       <div className="w-full max-w-sm sm:max-w-lg p-4 sm:p-8 bg-white shadow-2xl rounded-xl border border-gray-100">
-        <h1 className="text-2xl sm:text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600 mb-4 sm:mb-8">
+        <div className="text-center text-xs sm:text-sm text-gray-500 mb-2">
+          <p>AW X DEV</p>
+        </div>
+        
+        <h1 className="text-xl sm:text-2xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600 mb-4 sm:mb-6">
           ECAT Aggregate Calculator
         </h1>
         
@@ -169,7 +173,7 @@ function AggregateCalculator() {
         )}
       </div>
       <div className="mt-3 sm:mt-4 text-center text-xs sm:text-sm text-gray-500">
-        <p>© 2023 ECAT Aggregate Calculator | <span className="font-semibold">AW X DEV</span></p>
+        <p>© 2023 ECAT Aggregate Calculator | <a href="https://wa.me/+923426084562" target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-green-600 transition-colors">AW X DEV</a></p>
       </div>
     </div>
   );
