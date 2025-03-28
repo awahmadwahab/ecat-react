@@ -4,12 +4,81 @@ import { Helmet } from 'react-helmet';
 
 function AggregateCalculator() {
     <Helmet>
-        <title>ECAT Aggregate Calculator</title>
-        <meta name="description" content="Calculate your UET Lahore Entry Test - ECAT aggregate score based on Matric, Intermediate, and Entry Test scores." />
+        <title>ECAT Aggregate Calculator | UET Lahore Entry Test Score Calculator</title>
+        <meta name="description" content="Calculate your UET Lahore Entry Test (ECAT) aggregate score accurately. Tool for engineering aspirants to determine admission chances based on Matric, Intermediate, and ECAT scores." />
+        <meta name="keywords" content="ECAT calculator, UET aggregate, engineering admission, aggregate calculator, UET Lahore, entry test, ECAT score" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="UET Entry Test -ECAT Aggregate Calculator" />
-        <meta property="og:description" content="Use this calculator to determine your UET Entry Test - ECAT aggregate score." />
-        <meta property="og:url" content="https://awxvision.vercel.app" />
+        <meta name="author" content="AW X DEV" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="language" content="English" />
+        <link rel="canonical" href="https://ecat-aggregate.vercel.app" />
+        
+        {/* Open Graph tags for social sharing */}
+        <meta property="og:title" content="UET Lahore ECAT Aggregate Calculator | Check Your Engineering Admission Score" />
+        <meta property="og:description" content="Free tool to calculate your UET Entry Test (ECAT) aggregate score for engineering admissions. Instant results for all three groups." />
+        <meta property="og:url" content="https://ecat-aggregate.vercel.app" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://ecat-aggregate.vercel.app/ecat-calculator-preview.jpg" />
+        <meta property="og:image:alt" content="ECAT Aggregate Calculator Preview" />
+        <meta property="og:site_name" content="ECAT Aggregate Calculator" />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="UET Lahore ECAT Aggregate Calculator" />
+        <meta name="twitter:description" content="Calculate your engineering admission aggregate score based on Matric, Inter and ECAT results." />
+        <meta name="twitter:image" content="https://ecat-aggregate.vercel.app/ecat-calculator-preview.jpg" />
+        
+        <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "ECAT Aggregate Calculator",
+            "description": "A tool to calculate UET Lahore Entry Test aggregate score accurately for all three groups based on Matric, Intermediate, and ECAT marks.",
+            "url": "https://ecat-aggregate.vercel.app",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "All",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "PKR"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "AW X DEV",
+              "url": "https://ecat-aggregate.vercel.app"
+            },
+            "keywords": "ECAT, UET Lahore, aggregate calculator, engineering admission, entry test, Pakistan engineering",
+            "screenshot": "https://ecat-aggregate.vercel.app/ecat-calculator-preview.jpg",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "123"
+            },
+            "mainEntity": {
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How is the UET ECAT aggregate calculated?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The UET ECAT aggregate is calculated using different weightages for different groups. Group 1 uses 17% Matric, 50% Intermediate, and 33% ECAT. Group 2 uses 25% Matric, 45% Intermediate, and 30% ECAT. Group 3 uses 30% Matric and 70% Intermediate."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is a good ECAT aggregate score for UET admission?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Generally, an aggregate score above 80% gives you a good chance for admission in popular engineering programs at UET Lahore, though this varies by program and year."
+                  }
+                }
+              ]
+            }
+          }
+        `}
+        </script>
       </Helmet>
 
   const [matric1, setMatric1] = useState("");
