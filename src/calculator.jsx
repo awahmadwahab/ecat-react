@@ -90,14 +90,14 @@ function AggregateCalculator() {
             <h2 className="text-base sm:text-lg font-semibold text-gray-700 mb-1 sm:mb-2">Matric Details</h2>
             <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0">
               <InputField
-                label="Obtained Marks"
+              
                 id="matric1"
                 value={matric1}
                 onChange={(e) => setMatric1(e.target.value)}
                 placeholder="Obtained"
               />
               <InputField
-                label="Total Marks"
+               
                 id="matric2"
                 value={matric2}
                 onChange={(e) => setMatric2(e.target.value)}
@@ -110,14 +110,14 @@ function AggregateCalculator() {
             <h2 className="text-base sm:text-lg font-semibold text-gray-700 mb-1 sm:mb-2 mt-2 sm:mt-4">Intermediate Details</h2>
             <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0">
               <InputField
-                label="Obtained Marks"
+               
                 id="inter1"
                 value={inter1}
                 onChange={(e) => setInter1(e.target.value)}
                 placeholder="Obtained"
               />
               <InputField
-                label="Total Marks"
+             
                 id="inter2"
                 value={inter2}
                 onChange={(e) => setInter2(e.target.value)}
@@ -129,7 +129,7 @@ function AggregateCalculator() {
           <div>
             <h2 className="text-base sm:text-lg font-semibold text-gray-700 mb-1 sm:mb-2 mt-2 sm:mt-4">Entry Test</h2>
             <InputField
-              label="Entry Test Score (out of 400)"
+              label="Score (out of 400)"
               id="entryTest"
               value={entryTest}
               onChange={(e) => setEntryTest(e.target.value)}
