@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home page -->
+  <url>
+    <loc>https://ecat-aggregate.vercel.app/</loc>
+    <lastmod>2023-03-28</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Any additional relevant pages -->
+  <!-- You can include other sections if your website has multiple sections in the future -->
+  <!-- Example: -->
+  <!-- <url>
+    <loc>https://ecat-aggregate.vercel.app/about</loc>
+    <lastmod>2023-03-28</lastmod>
+    <priority>0.8</priority>
+  </url> -->
+
+</urlset>
